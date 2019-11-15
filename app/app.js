@@ -9,6 +9,7 @@ import { PersistGate } from 'redux-persist/integration/react';
 import { Provider } from 'react-redux';
 import { ConnectedRouter } from 'connected-react-router';
 import FontFaceObserver from 'fontfaceobserver';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import 'sanitize.css/sanitize.css';
 
 // Store configure
