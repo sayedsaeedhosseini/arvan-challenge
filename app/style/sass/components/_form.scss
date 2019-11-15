@@ -1,0 +1,48 @@
+input,select,textarea{
+    transition: all 0.2s ease;
+}
+.block__element--input-animated{
+    text-align: right;
+    margin: 20px 0;
+    .input{
+        border-bottom: 1px solid $color-border-input;
+        border-right: none;
+        border-left: none;
+        border-top: none;
+        outline: none;
+        width: 100%;
+        padding-bottom: 8px;
+        &:focus{
+            border-bottom: 1px solid $orange-12;
+            ~.input-lbl{
+                transform: translateY(0);
+            }
+        }
+    }
+    .input-ico{
+        padding-right: 36px;
+    }
+    .field--icon--active{
+        color: $orange-12;
+    }
+    .input-lbl{
+        &.field-active{
+            transform: translateY(0);
+        }
+    }
+    .input-lbl{
+        transform: translateY(35px);
+        color: $gray-10;
+        line-height: 20px;
+        pointer-events: none;
+        transition: all 0.2s ease;
+        padding-bottom: 8px;
+    }
+    .block__elem--input--text--icon{
+        padding-bottom: 8px;
+        padding-right: 36px;
+    }
+    .block__elem--input--text{
+        padding-bottom: 8px;
+    }
+}

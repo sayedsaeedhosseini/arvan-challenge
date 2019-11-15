@@ -1,0 +1,40 @@
+.notification-item .notification-close {
+  right: auto;
+  left: 1rem;
+}
+
+.notification-item .notification-title {
+  text-align: right;
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+.notification-item .notification-message {
+  text-align: right;
+  font-size: 1.3rem;
+}
+
+.notification-success {
+  border-left: 0;
+  border-right: 0.8rem solid #1f8838;
+}
+
+.notification-warning {
+  border-left: 0;
+  border-right: 0.8rem solid #ce9c09;
+}
+
+.notification-danger {
+  border-left: 0;
+  border-right: 0.8rem solid #bd1120;
+}
+
+.notification-info {
+  border-left: 0;
+  border-right: 0.8rem solid #138b9e;
+}
+
+.notification-default {
+  border-left: 0;
+  border-right: 0.8rem solid #0562c7;
+}

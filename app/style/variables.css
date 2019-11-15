@@ -1,0 +1,84 @@
+:root {
+  /*
+   * Typography
+   * ======================================================================== */
+
+  --font-family-base: IRANSans, Arial, Tahoma, serif;
+
+  /*
+   * Colors
+   * ======================================================================== */
+
+  --darkest: #000;
+  --gray-100: #191919;
+  --gray-200: #202020;
+  --gray-300: #4a4a4a;
+  --gray-400: #777;
+  --gray-500: #9b9b9b;
+  --gray-650: #b7b7b7;
+  --gray-600: #cbcbcb;
+  --gray-700: #e2e2e2;
+  --gray-800: #e9e9e9;
+  --gray-850: #eee;
+  --gray-900: #fafafa;
+  --brigthest: #fff;
+
+  /* more colors */
+  --basil-leaf-600: #effdf6;
+  --basil-leaf-500: #05da7825;
+  --basil-leaf-base: #05da78;
+  --basil-leaf-100: #0d6e41;
+  --basil-leaf-x: #0dd0af;
+  --sea-green: #05ea81;
+  --blueberry-600: #f5f9ff;
+  --blueberry-base: #80c3f3;
+  --blueberry-300: #0084b2;
+  --blueberry-x: #5890ff;
+  --basil-rubin-base: #6936eb;
+  --basil-rubin-x: #4f399c;
+  --lemon-600: #fffdf4;
+  --lemon-base: #fbd249;
+  --lemon-x: #f6a623;
+  --red-900: #ff585b00;
+  --red-800: #fff2ef;
+  --red-500: #fd8366;
+  --red-base: #ff595e;
+  --red: #ff0613;
+  --red-light: #fde5e3;
+  --red-lightest: #fcf3f2;
+  --red-text-alert: #ff4545;
+
+  /* Operation Colors */
+  --success: #00b260;
+  --error: #cc050f;
+
+
+  /*
+   * chili Colors
+   * ======================================================================== */
+
+  --chili-red: #bc0024;
+
+
+  /*
+   * Extras
+   * ======================================================================== */
+  --border-radius-base: 0.4rem;
+  --border-radius-large: 0.7rem;
+  --box-shadow-normal: 0 0 0.4rem rgba(0, 0, 0, 0.12);
+  --box-shadow-hover: 0 0.3rem 2rem rgba(0, 0, 0, 0.2);
+
+  /*
+   * Z-index
+   * ======================================================================== */
+
+  --base-zindex: 100;
+  --backdrop-drawer-zindex: 990;
+  --drawer-zindex: 1000;
+
+  /*
+   * Transition
+   * ======================================================================== */
+
+  --normal-transition: all 0.3s;
+}
