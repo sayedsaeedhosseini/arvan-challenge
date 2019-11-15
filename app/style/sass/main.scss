@@ -2,13 +2,13 @@
 @import './reset';
 @import './reset.global';
 @import './mixin';
-@import './fonts';
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
 @import './icons';
 @import './components/form';
 @import './kit';
 body{
-  font-family:IRANSans!important;
-  direction: rtl;
+  font-family: 'Roboto', sans-serif;
+  direction: ltr;
   font-size: 16px;
   background-color: #f5f5f5!important;
   margin: 0;
