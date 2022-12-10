@@ -75,7 +75,7 @@
     "connected-react-router": "6.4.0",
     "cross-env": "5.2.0",
     "dotenv": "^8.1.0",
-    "express": "4.16.4",
+    "express": "4.17.3",
     "fine-uploader": "^5.16.2",
     "fine-uploader-wrappers": "latest",
     "fontfaceobserver": "2.1.0",
